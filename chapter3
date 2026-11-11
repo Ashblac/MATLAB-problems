@@ -359,7 +359,7 @@ compare =
   25
   format long;
 x=[1.0, 0.5, 0.1, 0.01, 0.001, 0.0001];
-terms_y=(cos(2.*x)-1)./(cos(x)-1)
+terms_y=(cos(2*x)-1)./(cos(x)-1)
 compare=y-4
 
   
@@ -387,7 +387,7 @@ compare = 1×7
 
 27
 P=(10:10:200)
-Q=1020.*sqrt(P).*(1-0.01.*sqrt(P))
+Q=1020*sqrt(P).*(1-0.01*sqrt(P))
 
   Q =
 
@@ -716,7 +716,7 @@ diag2 =
 B=[-18.2;-48.8;92.5]
 
 
-X=B\A
+X=A\B
 
 X = inv(A)*B
 
